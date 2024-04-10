@@ -1,0 +1,6 @@
+applications:
+  - name: my-nginx-app
+    memory: 256M
+    instances: 1
+    buildpacks:
+      - nginx_buildpack
